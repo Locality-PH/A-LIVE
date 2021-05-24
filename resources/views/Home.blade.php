@@ -8,6 +8,10 @@
 </head>
 <body>
     <p> Von Matinik </p>
-    <a href="http://127.0.0.1:8000/"  >Welcome</a>
+
+    <form action="http://127.0.0.1:8000/" method="get">
+        <input type="submit" value="Go to Welcome" />
+    </form>
+    
 </body>
 </html>

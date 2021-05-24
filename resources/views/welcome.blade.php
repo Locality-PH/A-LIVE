@@ -8,6 +8,11 @@
 </head>
 <body>
     <p> Pogi ni Von Aralar mahilig pumunta sa George Town </p>
-    <a href="http://127.0.0.1:8000/kahitano">Home</a>
+    
+    <form action="http://127.0.0.1:8000/kahitano" method="get">
+        <input type="submit" value="Go to Home" />
+    </form>
+
+    <img src="{{ URL::to('images/image.jpg') }}" alt="picture">
 </body>
 </html>
