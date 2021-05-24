@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <p> Pogi ni Von Aralar mahilig pumunta sa George Town </p>
-    <a href="http://127.0.0.1:8000/kahitano">Home</a>
+    <p> Von Matinik </p>
+    <a href="http://127.0.0.1:8000/"  >Welcome</a>
 </body>
 </html>
