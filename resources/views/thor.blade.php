@@ -7,7 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Hello World</p>
-    <strong>Thor</strong>
+    <p>34-0534534</p>
 </body>
 </html>
