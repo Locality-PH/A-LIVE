@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+
     <p> Pogi ni Von Aralar mahilig pumunta sa George Town </p>
     
     <form action="http://127.0.0.1:8000/kahitano" method="get">
