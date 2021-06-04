@@ -2,44 +2,13 @@
 <html>
 <head>
 <style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
- 
-}
-li {
-  float: right;
-  
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 6px 13px;
-  text-decoration: none;
- 
-}
-li a:hover {
-  background-color: #19FFFF;
-}
 body{
-    background-image: url('{{ asset ('pic/vack.jpg') }}');
-    background-size: cover;
-}
-label.logo{
-    color:#19FFFF;
-    font-size: 25px;
-    margin:0;
-    padding: 8px 100px;
-    font-weight:bold;
-
-}
+      background-image: url('{{ asset ('pic/vack.jpg') }}');
+      background-size: cover;
+  }
 </style>
 <title> A-LIVE-HOME </title>
+<link rel="stylesheet" href={{ URL::asset('css/home.css') }}>
 </head>
 <body>
 <nav> 
