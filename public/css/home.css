@@ -1,3 +1,21 @@
+*{
+  padding:0%;
+  margin:0;
+}
+body{
+  line-height: 1.6;
+  height: 100vh;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+}
+.navbar{
+  float: right;
+  position: fixed;
+  width: 100%;
+  
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -6,7 +24,6 @@ ul {
     background-color: rgb(85, 85, 85);
   }
   li {
-
     float: right;
     margin-left: 3px;
   }
@@ -15,7 +32,7 @@ ul {
      font-family: century;
     display: block;
     color: white;
-    padding: 6px 20px;
+    padding: 5px 15px;
     text-decoration: none;
     transition: 0.6s ease;
     border: 1px solid transparent;
@@ -28,20 +45,12 @@ ul {
     background-color: #19FFFF;
     color:white;
   }
-
-  label.logo{
-      color:#19FFFF;
-      font-size: 25px;
-      margin:0;
-      padding: 8px 100px;
-      font-weight:bold;
-  }
 .main{
     max-width: 1200px;
     margin: auto;
   }
 
-.title{
+.page1 div.title{
     position: absolute;
     top: 50%;
     left:50%;
@@ -52,10 +61,42 @@ ul {
     font-size:50px;
     font-family: Verdana;
   }
-.button{
+  .title p{
+      color:#19FFFF;
+      font-size:15px;
+      font-family: Verdana;
+  }
+  .page2 div.title{
+    position: absolute;
+    top: 120%;
+    left:60%;
+    transform: translate(-50%,-50%);
+  }
+  .imgs img{
+    float: left;
+   width: 400px;
+    height: auto;
+    margin-top: 3%;
+    margin-left: 3%;
+   border: 3px solid #19FFFF;
+   border-radius:10px;
+  }
+  .title h2{
+    color:white;
+    font-size:20px;
+    font-family: Verdana;
+  }
+  .page1 div.button {
   position: absolute;
   top: 60%;
   left:50%;
+  transform: translate(-50%,-50%);
+}
+.page2 div.button {
+  font-family: verdana;
+  position: absolute;
+  top: 145%;
+  left:60%;
   transform: translate(-50%,-50%);
 }
   .btn{
@@ -71,7 +112,21 @@ ul {
 }
   .logo img{
     float:left;
-    width:120px;
+    width:125px;
     height: auto;
     margin-left: 5%;
+  }
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-position: cover;
+    
+  }
+  section h1{
+    font-size: 4rem;
+  }
+  section p{
+    font-size: 1.5rem;
   }
