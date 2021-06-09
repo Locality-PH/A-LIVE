@@ -19,3 +19,6 @@ Route::get('/welcome', function () {
 Route::get('/thor', function () {
     return view('thor');
 });
+Route::get('/alivegames', function () {
+    return view('alivegames');
+});
