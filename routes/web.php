@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\CompanyCRUDController;
+use App\Http\Controllers\PController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,3 +28,8 @@ Route::get('/Homepage', function () {
 Route::get('/Home', function () {
     return view('welcome');
 });
+Route::get('/new', function () {
+    return view('live');
+});
+Route::resource('companies', CompanyCRUDController::class);
+Route::resource('profile', PController::class);

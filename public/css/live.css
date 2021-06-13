@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.live{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url("/pic/bc.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.nav{
+    display:flex;
+    padding: 40px, 120px;
+}
+.logo img{
+    width: 120px;
+
+}
+.navlinks{
+    float: right;
+    background-color: rgb(80, 80, 80);
+    height: 33px;
+    width: 100%;
+}
+.navlinks ul{
+    float: right;
+    display: inline;
+    
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+   
+}
+.navlinks ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: turquoise;
+    display: block;
+    margin: auto;
+    transition: .6s; 
+}
+.navlinks ul li:hover:after{
+    width: 100%;
+}
+.navlinks ul li a{
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    color:white;
+    font: Verdana bold;
+    text-decoration: none;
+}
+.titlebanner{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.titlebanner h1{
+    color: white;
+    font-weight: Bold;
+    font-family: Verdana;
+}
+.titlebanner p{
+    color: white;
+    font-family: Verdana;
+    margin-top: 10px;
+}
+.titlebanner .btn{
+    border-radius:40px;
+    border: 3px solid #19FFFF;
+    padding: 10px 30px;
+    color:white;
+    text-decoration: none;
+    font-family:Verdana;
+    background-color: transparent;
+    margin-top: 20px;
+}
+.titlebanner .btn:hover{
+    background-color: #19FFFF;
+  }
+@media screen and (max-width:700px) {
+    body{
+        display: none;
+    }
+}
